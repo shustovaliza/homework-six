@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'Poppins Bold';
+    font-style: Bold;
+    src: local('Poppins Bold'),
+        url(fonts/Poppins-Bold.woff2) format('woff2'),
+        url(fonts/Poppins-Bold.woff) format('woff'),
+        url(fonts/Poppins-Bold.ttf) format('ttf'),
+        url(fonts/Poppins-Bold.eot) format('eot');
+}
+
+@font-face {
+    font-family: 'Poppins Regular';
+    font-style: Regular;
+    src: local('Poppins Regular'),
+        url(fonts/Poppins-Regular.woff2) format('woff2'),
+        url(fonts/Poppins-Regular.woff) format('woff'),
+        url(fonts/Poppins-Regular.ttf) format('ttf'),
+        url(fonts/Poppins-Regular.eot) format('eot');
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+    height: 1300px;
+    background: url(images/image.svg);
+    position: relative;
+}
+
+.main::before {
+    content: url(images/Path2.svg);
+    position: absolute;
+    top: -210px;
+}
+
+.main::after {
+    content: url(images/Path.svg);
+    position: absolute;
+    top: 1150px;
+}
+
+.main-text {
+    margin-top: 350px;
+    width: 327px;
+    height: 84px;
+    font-family: 'Poppins Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.separator {
+    width: 50px;
+    height: 7px;
+    border-radius: 50px;
+    background-color: #FD749B;
+    margin-top: 28px;
+}
+
+.extra-text {
+    width: 542px;
+    margin-top: 45px;
+    font-family: 'Poppins Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.balls {
+    margin-top: 40px;
+    width: 1067px;
+    height: 388.53px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ball {
+    width: 84.39px;
+    height: 84.39px;
+    background: #D8D8D8;
+    border-radius: 50%;
+
+}
+
+.one {
+    margin-top: 228.94px;
+}
+
+.two {
+    width: 137.87px;
+    height: 137.87px;
+    margin: 0px;
+    margin-top: 80.21px;
+    margin-left: 4.18px;
+}
+
+.three {
+    width: 45.12px;
+    height: 45.12px;
+    margin: 0px;
+    margin-top: 244.82px;
+    margin-left: 14.2px;
+}
+
+.four {
+    width: 68.52px;
+    height: 68.52px;
+    margin: 0px;
+    margin-top: 98.6px;
+}
+
+.five {
+    width: 58.49px;
+    height: 58.49px;
+    margin: 0px;
+    margin-top: 177.15px;
+    margin-left: 5.01px;
+}
+
+.six {
+    margin: 0px;
+    margin-top: 218.08px;
+    margin-left: 35.93px;
+}
+
+.seven {
+    width: 65.17px;
+    height: 65.17px;
+    margin: 0px;
+    margin-top: 106.95px;
+    margin-left: -50px;
+}
+
+.eight {
+    margin-top: 148.73px;
+    margin-left: 81.05px;
+}
+
+.nine {
+    margin: 0px;
+    margin-left: 41.12px;
+    margin-top: 206.38px;
+}
+
+.ten {
+    margin-top: 80.21px;
+    margin-left: -23px;
+}
+
+.eleven {
+    margin-top: 304.14px;
+    margin-left: -70px;
+}
+
+.twelve {
+    margin-top: 182.99px;
+    margin-left: 18.38;
+}
+
+.thirteen {
+    margin-left: 15.87px;
+}
+
+.review {
+    position: absolute;
+    width: 410px;
+    height: 117px;
+    background: #C4C4C4;
+    border-radius: 15px;
+    margin-top: 212px;
+    margin-left: 557px;
+    opacity: 0.7;
+}
+
+.review::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 51px;
+    border-left: 30px solid #C4C4C4;
+    border-right: 40px solid transparent;
+    border-top: 40px solid transparent;
+    transform: rotate(45deg);
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.rating-wrap {
+    position: absolute;
+    height: 82.65px;
+    width: 300px;
+    z-index: 2;
+    margin-left: 26.33px;
+    margin-top: 17.7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.customer {
+    font-family: 'Poppins Regular';
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.stars {
+    width: 76.83px;
+    height: 11.07px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-title {
+    font-family: 'Poppins Bold';
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 7.23px;
+    color: #333333;
+}
+
+.review-text {
+    font-family: 'Poppins Regular';
+    font-style: Regular;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.bitcoin {
+    margin-top: 20.68px;
+    margin-left: 368px;
+    opacity: 1;
+}
+
+.graphics-one {
+    position: absolute;
+    top: 250px;
+    left: 161.17px;
+}
+
+.graphics-two {
+    position: absolute;
+    left: 1283.17px;
+    top: 1040px;
+}
